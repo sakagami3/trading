@@ -11,9 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20151114102825) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "komatsu_prices", force: :cascade do |t|
+    t.date     "trading_date"
+    t.float    "hajimene"
+    t.float    "takane"
+    t.float    "yasune"
+    t.float    "owarine"
+    t.float    "dekidaka"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
 
 end

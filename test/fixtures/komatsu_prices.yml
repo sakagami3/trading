@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trading_date: 2015-11-14
+  hajimene: 1.5
+  takane: 1.5
+  yasune: 1.5
+  owarine: 1.5
+  dekidaka: 1.5
+
+two:
+  trading_date: 2015-11-14
+  hajimene: 1.5
+  takane: 1.5
+  yasune: 1.5
+  owarine: 1.5
+  dekidaka: 1.5
