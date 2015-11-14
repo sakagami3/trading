@@ -2,19 +2,8 @@ development:
     adapter: postgresql
     encoding: utf8
     reconnect: true
-    database: equity_investment-dev
+    database: trading-dev
     pool: 5
-    username: equity_investment
+    username: trading
     password: pass
     host: localhost
-
-production:
-    adapter: postgresql
-    encoding: utf8
-    reconnect: false
-    database: d7mrjapgi82jjc
-    pool: 5
-    username: lvlawbjukpzlkj
-    password: Yb8gXquA7Fw63HU1oszVZGf_wj
-    host: ec2-107-21-219-235.compute-1.amazonaws.com
-    port: 5742
